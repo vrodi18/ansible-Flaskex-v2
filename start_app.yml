@@ -1,0 +1,7 @@
+---
+- hosts: all
+
+  tasks:
+  - name: Start Flaskex
+    shell: "nohup python3 /var/www/Flaskex/app.py & "
+    
